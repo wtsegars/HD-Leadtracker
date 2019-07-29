@@ -1,7 +1,7 @@
 $maincolor: #ee7125;
 
 .jumbotron {
-    background-color: #ee7125;
+    background-color: $maincolor;
     .container {
         margin-left: 600px;
     }
