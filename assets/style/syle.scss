@@ -1,8 +1,40 @@
 $maincolor: #ee7125;
 
+html {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+}
+
+form {
+    margin-left: 350px;
+    .col {
+        .form-group {
+            input {
+                width: 450px;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: $maincolor;
+    margin-bottom: -50px;
+}
+
 .jumbotron {
     background-color: $maincolor;
+    img {
+        margin-left: 50px;
+    }
     .container {
         margin-left: 600px;
+        .text-position {
+            margin-top: -100px;
+        }
     }
 }

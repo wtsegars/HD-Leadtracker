@@ -1,8 +1,37 @@
+html body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+form {
+  margin-left: 350px;
+}
+
+form .col .form-group input {
+  width: 450px;
+}
+
+.footer {
+  background-color: #ee7125;
+  margin-bottom: -50px;
+}
+
 .jumbotron {
   background-color: #ee7125;
 }
 
+.jumbotron img {
+  margin-left: 50px;
+}
+
 .jumbotron .container {
   margin-left: 600px;
+}
+
+.jumbotron .container .text-position {
+  margin-top: -100px;
 }
 /*# sourceMappingURL=syle.css.map */
