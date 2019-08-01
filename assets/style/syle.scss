@@ -1,4 +1,5 @@
 $maincolor: #ee7125;
+$textcolor: #FFFFFF;
 
 html {
     body {
@@ -35,6 +36,30 @@ form {
         margin-left: 600px;
         .text-position {
             margin-top: -100px;
+        }
+    }
+}
+
+.navbar {
+    background-color: $maincolor;
+    img {
+        margin-right: 775px;
+    }
+    .nav {
+        .nav-item {
+            .nav-link {
+                color: $textcolor;
+            }
+            .dropdown-menu {
+                .nav-link{
+                    color: $maincolor;
+                }
+                .dropdown-menu {
+                    .dropdown-item {
+                        color: $maincolor;
+                    }
+                }
+            }
         }
     }
 }

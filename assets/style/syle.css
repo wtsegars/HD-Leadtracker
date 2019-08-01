@@ -34,4 +34,24 @@ form .col .form-group input {
 .jumbotron .container .text-position {
   margin-top: -100px;
 }
+
+.navbar {
+  background-color: #ee7125;
+}
+
+.navbar img {
+  margin-right: 775px;
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar .nav .nav-item .dropdown-menu .nav-link {
+  color: #ee7125;
+}
+
+.navbar .nav .nav-item .dropdown-menu .dropdown-menu .dropdown-item {
+  color: #ee7125;
+}
 /*# sourceMappingURL=syle.css.map */
