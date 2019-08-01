@@ -35,6 +35,20 @@ form .col .form-group input {
   margin-top: -100px;
 }
 
+.main-text {
+  margin-left: 175px;
+}
+
+.main-text .main-title {
+  font-size: 48px;
+  color: #999999;
+}
+
+.main-text .sub-title {
+  color: #999999;
+  font-size: 32px;
+}
+
 .navbar {
   background-color: #ee7125;
 }

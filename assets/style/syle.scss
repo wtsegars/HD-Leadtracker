@@ -1,5 +1,6 @@
 $maincolor: #ee7125;
 $textcolor: #FFFFFF;
+$titlecolor:  rgb(153, 153, 153);
 
 html {
     body {
@@ -40,6 +41,18 @@ form {
     }
 }
 
+.main-text {
+    margin-left: 175px;
+    .main-title {
+        font-size: 48px;
+        color: $titlecolor;
+    }
+    .sub-title {
+        color: $titlecolor;
+        font-size: 32px;
+    }
+}
+
 .navbar {
     background-color: $maincolor;
     img {
@@ -63,3 +76,4 @@ form {
         }
     }
 }
+
