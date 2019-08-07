@@ -11,7 +11,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/main-menu", function(req, res) {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "main-menu.html"));
 });
 
 app.listen(PORT, function() {
