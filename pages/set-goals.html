@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/style/syle.css" type="text/css">
+    <title>Set Lead Goals</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+        <img src="../assets/images/THD_logo_menu.jpg">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    View Leads
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navDropdown1">
+                    <a class="nav-link dropdown-toggle" id="subDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        For the Store
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="subDropdown1">
+                        <a class="dropdown-item" href="">For a Specific Week</a>
+                        <a class="dropdown-item" href="">For a Specific Month</a>
+                        <a class="dropdown-item" href="">For a Specific Year</a>
+                    </div>
+                    <a class="nav-link dropdown-toggle" id="subDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        By Department
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="subDropdown2">
+                        <a class="dropdown-item" href="">For a Specific Week</a>
+                        <a class="dropdown-item" href="">For a Specific Month</a>
+                        <a class="dropdown-item" href="">For a Specific Year</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Update Leads</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="">Set Goals</a>
+            </li>
+        </ul>
+    </nav>
+    <br><br>
+    <form>
+        <h4>What Department Goal would you like to Update?</h4>
+        <div class="form-group">
+            <label for="deptSelect">Department:</label>
+            <select id="deptSelect" class="form-control">
+                <option selected>Select One...</option>
+                <option>D21/22</option>
+                <option>D23/59</option>
+                <option>D24</option>
+                <option>D25</option>
+                <option>D26/85</option>
+                <option>D27</option>
+                <option>D28</option>
+                <option>D29/70</option>
+                <option>D30</option>
+                <option>D31/94</option>
+                <option>D42</option>
+                <option>D78</option>
+                <option>D90/96</option>
+                <option>D93/38</option>
+                <option>D01</option>
+            </select>
+        </div>
+        <h4>What Dates do you want to Set a Goal for?</h4>
+        <div class="form-group">
+            <label for="weekInput">Week:</label>
+            <input type="text" class="form-control" id="weekInput" placeholder="Ex: August 12th - Auguest18th">
+        </div>
+        <div class="form-group">
+            <label for="monthInput">Month:</label>
+            <input type="text" class="form-control" id="monthInput" placeholder="May"> 
+        </div>
+        <div class="form-group">
+            <label for="yearInput">Year:</label>
+            <input type="text" class="form-control" id="yearInput" placeholder="Ex: August 12th - Auguest18th">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <div class="footer jumbotron jumbotron-fluid"></div>
+</body>
+</html>
