@@ -42,6 +42,10 @@ app.get("/main-menu/update-leads", function(req, res) {
     res.sendFile(path.join(__dirname, "update-leads.html"));
 });
 
+app.get("/main-menu/set-lead-goals", function(req, res) {
+    res.sendFile(path.join(__dirname, "set-goals.html"));
+});
+
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
 });
