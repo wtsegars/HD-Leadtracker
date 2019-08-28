@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS hd_leads_1755;
 
 CREATE DATABASE hd_leads_1755;
 
-USE hd_leads;
+USE hd_leads_1755;
 
 CREATE TABLE hd_leads_2019(
 	depts VARCHAR(6) NOT NULL,
