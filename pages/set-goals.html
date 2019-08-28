@@ -54,7 +54,7 @@
         <h4>What Department Goal would you like to Update?</h4>
         <div class="form-group">
             <label for="deptSelect">Department:</label>
-            <select id="deptSelect" class="form-control">
+            <select id="deptSelect" class="form-control" required>
                 <option selected>Select One...</option>
                 <option>D21/22</option>
                 <option>D23/59</option>
@@ -76,15 +76,15 @@
         <h4>What Dates do you want to Set a Goal for?</h4>
         <div class="form-group">
             <label for="weekInput">Week:</label>
-            <input type="text" class="form-control" id="weekInput" placeholder="Ex: August 12th - Auguest18th">
+            <input type="text" class="form-control" id="weekInput" placeholder="Ex: August 12th - Auguest18th" required>
         </div>
         <div class="form-group">
             <label for="monthInput">Month:</label>
-            <input type="text" class="form-control" id="monthInput" placeholder="May"> 
+            <input type="text" class="form-control" id="monthInput" placeholder="May" required> 
         </div>
         <div class="form-group">
             <label for="yearInput">Year:</label>
-            <input type="text" class="form-control" id="yearInput" placeholder="Ex: August 12th - Auguest18th">
+            <input type="text" class="form-control" id="yearInput" placeholder="Ex: August 12th - Auguest18th" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
