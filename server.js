@@ -50,6 +50,8 @@ app.get("/main-menu/set-lead-goals", function(req, res) {
     res.sendFile(path.join(__dirname, "set-goals.html"));
 });
 
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
+db.sequelize.sync().then(function() {
+    app.listen(PORT, function() {
+        console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
+      });
 });
