@@ -1,24 +1,18 @@
 const express = require('express');
-const path = require('path');
+const bodyParser = require('body-parser');
+const session = require('express-session');
 const app = express();
-const PORT = 3000;
-const passport = require('passport');
+const PORT = process.env.PORT || 3000;
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(express.static('public'));
 
 app.use(session({ secret: process.env.secret || "temporary secret" }));
 
-require("./config/passport")(passport, db.hd_users);
-
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "login.html"));
+    res.send('Test Sucessful');
 });
-
-app.post("/", passport.authenticate('local', { successRedirect: '/main-menu',
-    failureRedirect: '/',
-    failureFlash: true
-}));
 
 app.get("/main-menu", function(req, res) {
     res.sendFile(path.join(__dirname, "main-menu.html"));
