@@ -9,6 +9,8 @@ app.use(express.json());
 
 app.use(session({ secret: process.env.secret || "temporary secret" }));
 
+require("./config/passport")(passport, db.hd_users);
+
 app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "login.html"));
 });
