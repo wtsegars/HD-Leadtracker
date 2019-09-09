@@ -23,18 +23,18 @@ module.exports = function(sequelize, DataTypes) {
         return bcrypt.compareSync(password, this.password);
     };
 
-    User.hook("beforeCreate", function(user) {
-        user.pass_word = bcrypt.hashSync(user.pass_word, bcrypt.genSaltSync(10), null);
-    });
+    // User.hook("beforeCreate", function(user) {
+    //     user.pass_word = bcrypt.hashSync(user.pass_word, bcrypt.genSaltSync(10), null);
+    // });
 
-    return User;
+    // return User;
 
     //Break in case if above code doesn't work
-    //User.beforeCreate(user => {
-  //  user.password = bcrypt.hashSync(
-    //  user.password,
-      //bcrypt.genSaltSync(10),
-      //null
-    //);
-  //});
+    User.beforeCreate(user => {
+   user.password = bcrypt.hashSync(
+     user.password,
+      bcrypt.genSaltSync(10),
+      null
+    );
+  });
 };
