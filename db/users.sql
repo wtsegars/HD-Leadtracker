@@ -14,3 +14,7 @@ USE hd_users;
 
 INSERT INTO hd_leads_users (username, pass_word, store)
 VALUES ("Admin", "password", "0000");
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+
+FLUSH PRIVILEGES; 

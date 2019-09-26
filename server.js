@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
 app.use(passport.initialize());
-app.use(passport.sesstion());
+app.use(passport.session());
 
 require('./routes/api-routes')(app);
 require('./routes/html-routes')(app);
