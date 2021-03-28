@@ -1,70 +1,71 @@
 html body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-  
-  form {
-    margin-left: 350px;
-  }
-  
-  form .col .form-group input {
-    width: 450px;
-  }
-  
-  .footer {
-    background-color: #ee7125;
-    margin-bottom: -50px;
-  }
-  
-  .jumbotron {
-    background-color: #ee7125;
-  }
-  
-  .jumbotron img {
-    margin-left: 50px;
-  }
-  
-  .jumbotron .container {
-    margin-left: 600px;
-  }
-  
-  .jumbotron .container .text-position {
-    margin-top: -100px;
-  }
-  
-  .main-text {
-    margin-left: 175px;
-  }
-  
-  .main-text .main-title {
-    font-size: 48px;
-    color: #999999;
-  }
-  
-  .main-text .sub-title {
-    color: #999999;
-    font-size: 32px;
-  }
-  
-  .navbar {
-    background-color: #ee7125;
-  }
-  
-  .navbar img {
-    margin-right: 775px;
-  }
-  
-  .navbar .nav .nav-item .nav-link {
-    color: #FFFFFF;
-  }
-  
-  .navbar .nav .nav-item .dropdown-menu .nav-link {
-    color: #ee7125;
-  }
-  
-  .navbar .nav .nav-item .dropdown-menu .dropdown-menu .dropdown-item {
-    color: #ee7125;
-  }
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+form {
+  margin-left: 350px;
+}
+
+form .col .form-group input {
+  width: 450px;
+}
+
+.footer {
+  background-color: #ee7125;
+  margin-bottom: -50px;
+}
+
+.jumbotron {
+  background-color: #ee7125;
+}
+
+.jumbotron img {
+  margin-left: 50px;
+}
+
+.jumbotron .container {
+  margin-left: 600px;
+}
+
+.jumbotron .container .text-position {
+  margin-top: -100px;
+}
+
+.main-text {
+  margin-left: 175px;
+}
+
+.main-text .main-title {
+  font-size: 48px;
+  color: #999999;
+}
+
+.main-text .sub-title {
+  color: #999999;
+  font-size: 32px;
+}
+
+.navbar {
+  background-color: #ee7125;
+}
+
+.navbar img {
+  margin-right: 775px;
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar .nav .nav-item .dropdown-menu .nav-link {
+  color: #ee7125;
+}
+
+.navbar .nav .nav-item .dropdown-menu .dropdown-menu .dropdown-item {
+  color: #ee7125;
+}
+/*# sourceMappingURL=style.css.map */
