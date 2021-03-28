@@ -8,7 +8,8 @@ const db = require('./models');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public/'));
+app.use('/assets', express.static('assets'));
 
 app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
 app.use(passport.initialize());
